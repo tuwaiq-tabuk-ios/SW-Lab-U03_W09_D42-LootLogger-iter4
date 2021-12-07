@@ -202,24 +202,5 @@ override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         super.init(coder: aDecoder)
         navigationItem.leftBarButtonItem = editButtonItem
     }
-    
-    
-    override func tableView(_ tableView: UITableView,
-                              contextMenuConfigurationForRowAt indexPath: IndexPath,
-                              point: CGPoint) -> UIContextMenuConfiguration? {
-        
-        let favorite = UIAction(title: "Favorite",
-                                image: UIImage(systemName: "heart.fill")) { _ in }
-        
-        let delete = UIAction(title: "Delete",
-                              image: UIImage(systemName: "trash.fill"),
-                              attributes: [.destructive]) { _ in
-          // Perform action
-        }
-        return UIContextMenuConfiguration(identifier: nil,
-                                          previewProvider: nil) { _ in
-          UIMenu(children: [favorite, delete])
-        }
-      }
 
 }

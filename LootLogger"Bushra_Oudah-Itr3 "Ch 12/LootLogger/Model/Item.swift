@@ -7,8 +7,8 @@
 
 import UIKit
 
-class Item : Equatable , Codable {
-    typealias codable = Decodable & Encodable
+class Item : Equatable {
+    
    
     //var itemStore: ItemStore!
     
@@ -53,12 +53,4 @@ class Item : Equatable , Codable {
             self.init(name: "", serialNumber: nil, valueInDollars: 0)
         }
     }
-}
-protocol Encodable {
-    func encode(to encoder: Encoder) throws
-    
-    }
-
-protocol Decodable {
-    init(from decoder: Decoder) throws
 }
