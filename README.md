@@ -3,18 +3,13 @@ Fourth iteration of LootLogger App where the items data persists between runs
 
 ## Topics
 1. Typealias `Codable` that includes the protocols `Decodable` & `Encodable`
-2. Encode and decode objects to/from a _**property list**_
-     - Fill
-     - Fill Equally
-   - Stack view spacing
-   - Nested Stack Views
-   - Replicate Stack Views
-3. Error Handling
+2. _**Encode**_ and _**decode**_ objects to/from a _**Property lists**_
+3. _**Error Handling**_
    - The `throws` keyword
    - Using a `do-catch` block to handle errors
 4. Application Sandbox
 5. Scenes
-6. Notification center
+6. _**Notification center**_
 
 
 ## Description
