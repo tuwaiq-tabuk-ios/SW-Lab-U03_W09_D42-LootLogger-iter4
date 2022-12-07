@@ -15,6 +15,7 @@ Fourth iteration of LootLogger App where the items data persists between runs
 4. Application Sandbox
 5. Scenes
 6. Notification center
+<img width="1920" alt="Screen Shot 1444-05-12 at 9 36 15 PM" src="https://user-images.githubusercontent.com/91871668/206118519-174ea98a-76ea-4c24-a4f3-f27f4bc3a2a5.png">
 
 
 ## Description
